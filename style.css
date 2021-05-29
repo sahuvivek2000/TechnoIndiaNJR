@@ -1,0 +1,12 @@
+/* navbar */
+nav{
+    background-color: #2f2e3c;
+    font-family: Verdana;
+    font-size: 14px;
+    height: 13.5vh;
+}
+.navbar-nav li a {
+    color: #ffffe0;
+    justify-content: space-evenly;   
+}
+/* navbar */
