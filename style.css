@@ -1,12 +1,13 @@
 /* navbar */
 nav{
-    background-color: #2f2e3c;
+    background-color: #012A4A;
     font-family: Verdana;
     font-size: 14px;
-    height: 13.5vh;
+    
 }
 .navbar-nav li a {
-    color: #ffffe0;
+    color: #a9d6e5;
     justify-content: space-evenly;   
 }
+
 /* navbar */
