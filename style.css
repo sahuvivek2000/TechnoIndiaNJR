@@ -143,12 +143,11 @@ img.blur {
         20px -20px 60px #ffffff;
 }
 
-@media only screen and (max-width: 576px) {
+/* @media only screen and (max-width: 576px) {
     .contact-info {
-        /* padding-left: 13vh; */
-        /* padding-right: 20%; */
+      
     }
-}
+} */
 
 .card-deck {
     margin: auto;
