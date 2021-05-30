@@ -32,90 +32,152 @@ nav {
 /* OnHover Dropdown */
 /* navbar */
 
-/*HOME PAGE*/
+
+
+
+
+
+/* Home Page CSS Starts */
+
+/*Reset*/
 
 *{
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'ubuntu', sans-serif;
 }
 
-#departments {
-  background-color: #dbe5e6;
-  padding: 30px 0px;
-}
-
-#departments div div{
-  text-align: center;
-  font-family:serif;
-}
-
-#extra-curricular{
-  background-color: #dbe5e6;
-  padding-top: 20%;
-}
-
-.card-text a{
+/*Defined Tags and classes*/
+a{
   text-decoration: none;
   color: black;
 }
 
-.card{
-  box-shadow: 5px 10px 8px #888888;
-  min-height: 400px;
+/*Classes*/
+
+.carousel_images{
+  max-height: 500px;
+  width: 100%;
 }
 
-.details{
+.content_heading_section{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 25px;
+}
+
+.content_section {
+  box-shadow: none;
+  border-radius: 25px;
+}
+
+.title{
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* Hover Container */
+
+.card_image{
+  position: relative;
+}
+
+.image__img{
   display: block;
   width: 100%;
 }
 
-.image__overlay{
+.image__overlay {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background : rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
   opacity: 0;
   transition: opacity 0.25s;
 }
 
-.image__overlay>*{
-  transform: translateY(20px);
-  transition: transform 0.25s;
-}
-
-.image__overlay a{
-  text-decoration: none;
-  color: white;
-}
-
-.image__description{
-  font-size: 1.5em;
-}
-
-.image__overlay:hover{
-  opacity: 1;
-}
-
-.image__overlay:hover>*{
-  transform: translateY(0);
-}
-
 .image__overlay--blur{
-  backdrop-filter:blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .image__overlay--primary{
   background: #009578;
 }
 
-/*HOME PAGE CSS ENDS HERE*/
+.image__overlay > *{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover{
+  opacity: 1;
+}
+
+.image__overlay:hover > *{
+  transform: translateY(0);
+}
+
+/* End Hover Container */
+
+.card_font{
+  color: #ffffff;
+}
+
+.image__description{
+  margin-bottom: 2em;
+}
+
+.info_cards{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 10px;
+  min-height: 350px;
+}
+
+.ds_buttons{
+  border-radius: 25px;
+  min-width: 100%;
+}
+
+.information_button{
+  border-radius: 15px;
+}
+
+.inside_card_buttons
+{
+  border-radius: 15px;
+}
+
+/*IDs*/
+#collection{
+  margin-top:5em;
+  max-width: 1140px;
+}
+
+#departments{
+  margin-top:10em;
+}
+
+#placements_and_activities{
+  margin-top: 15em;
+}
+
+#extra_curricular{
+  margin-top: 15em;
+}
+
+#digital_section{
+  margin-top: 10em;
+  margin-bottom: 15em;
+}
+
+/* Home Page CSS ENDS */
