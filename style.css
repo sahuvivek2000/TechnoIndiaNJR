@@ -157,9 +157,11 @@ img.blur {
 
 /* contact us */
 /* about us > policies */
-.hero-text {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-  }
+.about-head {
+    font-size: 60px;
+    font-family: 'Black Han Sans';
+    color: #ffff;
+   
+}
+
 /* about us > policies */
