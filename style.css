@@ -294,7 +294,7 @@ a{
 
 .content_heading_section{
   box-shadow: 10px 10px 10px #888888;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .content_section {
@@ -333,7 +333,7 @@ a{
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   opacity: 0;
   transition: opacity 0.25s;
 }
@@ -365,6 +365,9 @@ a{
   color: #ffffff;
 }
 
+.card_text_font{
+}
+
 .image__description{
   margin-bottom: 2em;
 }
@@ -376,7 +379,7 @@ a{
 }
 
 .ds_buttons{
-  border-radius: 25px;
+  border-radius: 10px;
   min-width: 100%;
 }
 
@@ -410,6 +413,10 @@ a{
 #digital_section{
   margin-top: 10em;
   margin-bottom: 15em;
+}
+
+#digital_section_heading{
+  border-radius: 10px;
 }
 
 /* Home Page CSS ENDS */
