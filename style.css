@@ -135,13 +135,6 @@ img.blur {
     height: 90% !important;
 }
 
-/* @media only screen and (max-width: 425px) {
-    .map {
-        width: 99% !important;
-    height: 90% !important;
-    }
-} */
-
 .card {
 
     border-radius: 50px;
@@ -157,13 +150,17 @@ img.blur {
 
 /* contact us */
 /* about us > policies */
-.hero-text {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-  }
-/* about us > policies */
+.about-head {
+    font-size: 60px;
+    font-family: 'Black Han Sans';
+    color: #ffff;
+    position:static;
 
+}
+.main-body{
+    margin-bottom: 44px;
+}
+/* about us > policies */
 
 
 /* Admissions Page Start*/
