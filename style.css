@@ -266,6 +266,45 @@ ul.breadcrumb {
     margin-bottom: 20px;
 }
 
+/* IQAC */
+
+.iqac-head {
+    font-size: 5vw;
+    font-family: 'Black Han Sans';
+    color: #ffff;
+    line-height: 6vw;
+}
+.iqac-para{
+    padding-top: 4%;
+    font-size: 14px;
+}
+.iqac-heading{
+    line-height: 6vw;
+    font-family: Copperplate;
+    font-weight: 700px;
+    font-size: 5vw;
+    color: #353535;
+}
+@media only screen and (min-width: 768px){
+    .iqac-heading{
+        font-size: 50px;
+    }
+}
+.table-cont{
+    padding-top:34px;
+}
+.table{
+    margin-top: 34px;
+}
+.table-sec{
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+.iqac-points{
+    padding-top: 30px;
+    font-size: 14px;
+}
+/* IQAC */
 
 /* footer */
 
