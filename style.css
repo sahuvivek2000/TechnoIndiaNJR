@@ -128,13 +128,6 @@ img.blur {
     height: 90% !important;
 }
 
-/* @media only screen and (max-width: 425px) {
-    .map {
-        width: 99% !important;
-    height: 90% !important;
-    }
-} */
-
 .card {
 
     border-radius: 50px;
@@ -142,12 +135,6 @@ img.blur {
     box-shadow: -20px 20px 60px #d9d9d9,
         20px -20px 60px #ffffff;
 }
-
-/* @media only screen and (max-width: 576px) {
-    .contact-info {
-      
-    }
-} */
 
 .card-deck {
     margin: auto;
@@ -160,7 +147,7 @@ img.blur {
     font-size: 60px;
     font-family: 'Black Han Sans';
     color: #ffff;
-   
+
 }
 
 /* about us > policies */
