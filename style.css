@@ -154,9 +154,12 @@ img.blur {
     font-size: 60px;
     font-family: 'Black Han Sans';
     color: #ffff;
+    position:static;
 
 }
-
+.main-body{
+    margin-bottom: 44px;
+}
 /* about us > policies */
 
 
