@@ -266,7 +266,6 @@ ul.breadcrumb {
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 /* IQAC */
 
 .iqac-head {
@@ -299,13 +298,13 @@ ul.breadcrumb {
 }
 .table-sec{
     padding-top: 34px;
+    padding-bottom: 30px;
 }
-ol{
+.iqac-points{
     padding-top: 30px;
     font-size: 14px;
 }
 /* IQAC */
-=======
 
 /* footer */
 
@@ -370,4 +369,3 @@ ol{
   }
   
 /* footer */
->>>>>>> upstream/master
