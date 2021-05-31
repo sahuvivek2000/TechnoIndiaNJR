@@ -373,3 +373,21 @@ ul.breadcrumb {
   }
   
 /* footer */
+/* coc */
+.coc-heading{
+    font-size: 27px;
+    border-left: 6px solid red;
+    padding-left: 11px;
+    margin-top: 35px;
+}
+.coc-table{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.coc-content{
+    padding-left: 11px;
+    margin-top: 35px;
+    font-size: 15px;
+}
+/* coc */
