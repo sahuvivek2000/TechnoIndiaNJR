@@ -615,6 +615,21 @@ td > a {
 
 /* adjunct-facuties Ends */
 
+/* department-main page starts */
+
+.department-section {
+  margin-top: 3rem !important;
+}
+
+.adj-card {
+  min-height: 100% !important;
+}
+
+.department-card-end {
+  margin-bottom: 5rem;
+}
+
+/* department-main page ends */
 
 
 
@@ -736,3 +751,5 @@ td > a {
 #cse_faculty_content{
   margin-top: 3em;
 }
+
+/* Department CSE Ends */
