@@ -190,23 +190,23 @@ ul.breadcrumb {
     padding: 10px 0px;
     list-style: none;
   }
-  
+
   ul.breadcrumb li {
     display: inline;
     font-size: 18px;
   }
-  
+
   ul.breadcrumb li+li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
   }
-  
+
   ul.breadcrumb li a {
     color: #0275d8;
     text-decoration: none;
   }
-  
+
   ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
@@ -214,8 +214,11 @@ ul.breadcrumb {
 
   /*Breadcrumb End*/
 
-.container {
-    max-width: 1140px;
+.container{
+  max-width: 1140px;
+}
+
+.extra_padding_container {
     padding: 0 30px;
 }
 
@@ -334,7 +337,7 @@ ul.breadcrumb {
     background-color:#012A4A;
     color:#bcd4e6;
   }
-  
+
   .footer-basic ul {
     padding: 2%;
     list-style:none;
@@ -343,26 +346,26 @@ ul.breadcrumb {
     line-height:1.6;
     margin-bottom:0;
   }
-  
+
   .footer-basic li {
     padding:0 10px;
   }
-  
+
   .footer-basic ul a {
     color:inherit;
     text-decoration:none;
     opacity:0.8;
   }
-  
+
   .footer-basic ul a:hover {
     opacity:1;
   }
-  
+
   .footer-basic .social {
     text-align:center;
     padding-bottom:25px;
   }
-  
+
   .footer-basic .social > a {
     font-size:24px;
     width:40px;
@@ -376,11 +379,11 @@ ul.breadcrumb {
     color:inherit;
     opacity:0.75;
   }
-  
+
   .footer-basic .social > a:hover {
     opacity:0.9;
   }
-  
+
   .footer-basic .copyright {
     margin-top:15px;
     text-align:center;
@@ -388,5 +391,243 @@ ul.breadcrumb {
     color:#aaa;
     margin-bottom:0;
   }
-  
+
 /* footer */
+/* coc */
+.coc-heading{
+    font-size: 27px;
+    border-left: 6px solid red;
+    padding-left: 11px;
+    margin-top: 35px;
+}
+.coc-table{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.coc-content{
+    padding-left: 11px;
+    margin-top: 35px;
+    font-size: 15px;
+}
+/* coc */
+/* Admission Page Ends */
+
+
+/* Home Page CSS Starts */
+
+/*Reset*/
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*Defined Tags and classes*/
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*Classes*/
+
+.carousel_images{
+  max-height: 500px;
+  width: 100%;
+}
+
+.content_heading_section{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 10px;
+}
+
+.content_section {
+  box-shadow: none;
+  border-radius: 25px;
+}
+
+.title{
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* Hover Container */
+
+.card_image{
+  position: relative;
+}
+
+.image__img{
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur{
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary{
+  background: #009578;
+}
+
+.image__overlay > *{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover{
+  opacity: 1;
+}
+
+.image__overlay:hover > *{
+  transform: translateY(0);
+}
+
+/* End Hover Container */
+
+.card_font{
+  color: #ffffff;
+}
+
+.image__description{
+  margin-bottom: 2em;
+}
+
+.info_cards{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 10px;
+  min-height: 350px;
+}
+
+.ds_buttons{
+  border-radius: 10px;
+  min-width: 100%;
+}
+
+.information_button{
+  border-radius: 15px;
+}
+
+.inside_card_buttons
+{
+  border-radius: 15px;
+}
+
+/*IDs*/
+#collection{
+  margin-top:5em;
+  max-width: 1140px;
+}
+
+#departments{
+  margin-top:10em;
+}
+
+#placements_and_activities{
+  margin-top: 15em;
+}
+
+#extra_curricular{
+  margin-top: 15em;
+}
+
+#digital_section{
+  margin-top: 10em;
+  margin-bottom: 15em;
+}
+
+#digital_section_heading{
+  border-radius: 10px;
+}
+
+/* Home Page CSS ENDS */
+
+
+/* adjunct-faculties Starts */
+
+.af-hero-container {
+  height: 30vh;
+  text-align: center;
+}
+
+.af-hero {
+  width: 100vw;
+  height: 100%;
+}
+
+.af-hero-txt {
+  color: #FFF;
+  vertical-align: middle;
+  line-height: 30vh;
+  font-weight: bold;
+}
+
+.adjunct-faculties-container {
+  margin-top: 3rem;
+}
+
+.af-tab-content {
+  margin-top: 2rem;
+}
+
+.prof-img img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.prof-name {
+  color: #FF0000;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.hr-line {
+  height: 1px;
+  border-top: 1px solid #5472d2;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.prof-detail {
+  margin-bottom: 30px;
+}
+
+td > a {
+  text-decoration: none;
+}
+
+.fa.fa-file-pdf-o {
+  font-size: xx-large;
+  color: #FF0000;
+  line-height: 150%;
+}
+
+/* adjunct-facuties Ends */
