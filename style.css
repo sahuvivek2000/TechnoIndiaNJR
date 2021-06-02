@@ -531,21 +531,21 @@ a{
 /* Home Page CSS ENDS */
 
 
+
 /*Training-Page*/
 .training-tile{
   text-align: justify;
 }
+
 .training-logo{
   float:left;
   margin-right: 10px;
 }
+
 .training-text{
   margin-right: 10px;
 }
 
-.training-collab1{
-  float:right;
-}
 
 .training-research{
   float:right;
@@ -558,6 +558,7 @@ a{
   align-items: center;
   justify-content: center;
 }
+
 .training-column{
   padding: 10px 50px 5px;
 }
