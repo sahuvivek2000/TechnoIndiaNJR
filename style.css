@@ -316,8 +316,7 @@ ul.breadcrumb {
 /* Mechanical Engineering */
 
 .state-of-art{
-    width: 20rem;
-    height: 30rem;
+    margin-bottom: 2rem;
 }
 .mech-img{
     height: 18rem;
@@ -326,6 +325,16 @@ ul.breadcrumb {
 }
 .our-faculty-mech{
     max-width: 1140px;
+    margin:0 auto; 
+}
+
+.mech-faculty-card{
+  margin-bottom: 20px;
+}
+
+.card-no-shadow{
+  box-shadow: none !important;
+  border: none  !important;
 }
 
 /* Mechanical Engineering */
