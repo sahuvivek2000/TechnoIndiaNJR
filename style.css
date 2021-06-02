@@ -313,6 +313,32 @@ ul.breadcrumb {
 }
 /* IQAC */
 
+/* Mechanical Engineering */
+
+.state-of-art{
+    margin-bottom: 2rem;
+}
+.mech-img{
+    height: 18rem;
+    width: 23rem;
+    border-radius: 50px  !important;
+}
+.our-faculty-mech{
+    max-width: 1140px;
+    margin:0 auto; 
+}
+
+.mech-faculty-card{
+  margin-bottom: 20px;
+}
+
+.card-no-shadow{
+  box-shadow: none !important;
+  border: none  !important;
+}
+
+/* Mechanical Engineering */
+
 /* footer */
 
 .footer-basic {
@@ -614,6 +640,7 @@ td > a {
 }
 
 /* adjunct-facuties Ends */
+<<<<<<< HEAD
 /**Mehul's Css**/
 
 *{
@@ -621,13 +648,13 @@ td > a {
     padding: 0;
     border: 0;
 }
-.card-image-top {
+/*.card-image-top {
     width: 100%;
     height: 15vw;
     object-fit: cover;
     justify-content: center ;
-}
-.seperator
+}*/
+#sep
 {
     width: 2px;
 }
@@ -644,18 +671,18 @@ td > a {
 .active a {
     border-bottom: 2px solid white;
 }
-.card-image-top
+/*.card-image-top
 {
     margin-left: 60px;
-}
-.h5{
+}*/
+/*.h5{
     font-size: 4vw;
-}
-.card-image-top{
+}*/
+/*.card-image-top{
     width: auto;
     height: auto;
     
-}
+}*/
 #Contain{
     align-content: center;
     padding-top: 10px;
@@ -731,3 +758,21 @@ td > a {
 }
 
 /**End of Mehul's Css**/
+=======
+
+/* department-main page starts */
+
+.department-section {
+  margin-top: 3rem !important;
+}
+
+.adj-card {
+  min-height: 100% !important;
+}
+
+.department-card-end {
+  margin-bottom: 5rem;
+}
+
+/* department-main page ends */
+>>>>>>> upstream/master
