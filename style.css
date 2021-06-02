@@ -699,7 +699,8 @@ td > a {
   box-shadow: 10px 10px 10px #888888;
   border-radius: 10px;
   transition: 0.25s;
-  min-height: 460px;
+  min-height: 550px;
+  max-height:650px;
 }
 
 .our_faculty_card:hover{
@@ -726,8 +727,7 @@ td > a {
 
 .our_faculty_card_image{
   border-radius:10px;
-  min-height: 215px;
-  max-height:225px;
+  /* min-height: 290px; */
 }
 
 /* IDs */
