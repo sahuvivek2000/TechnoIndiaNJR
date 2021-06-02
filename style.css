@@ -313,6 +313,32 @@ ul.breadcrumb {
 }
 /* IQAC */
 
+/* Mechanical Engineering */
+
+.state-of-art{
+    margin-bottom: 2rem;
+}
+.mech-img{
+    height: 18rem;
+    width: 23rem;
+    border-radius: 50px  !important;
+}
+.our-faculty-mech{
+    max-width: 1140px;
+    margin:0 auto; 
+}
+
+.mech-faculty-card{
+  margin-bottom: 20px;
+}
+
+.card-no-shadow{
+  box-shadow: none !important;
+  border: none  !important;
+}
+
+/* Mechanical Engineering */
+
 /* footer */
 
 .footer-basic {
