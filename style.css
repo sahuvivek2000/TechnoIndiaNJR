@@ -573,6 +573,38 @@ a{
 /* Home Page CSS ENDS */
 
 
+/*Training-Page Starts*/
+.training-tile{
+  text-align: justify;
+}
+
+.training-logo{
+  float:left;
+  margin-right: 10px;
+}
+
+.training-text{
+  margin-right: 10px;
+}
+
+
+.training-research{
+  float:right;
+  margin-left: 10px;
+}
+
+.training-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.training-column{
+  padding: 10px 50px 5px;
+}
+/*Training Page Ends*/
+
 /* adjunct-faculties Starts */
 
 .af-hero-container {
@@ -655,6 +687,7 @@ td > a {
   margin-bottom: 5rem;
 }
 
+/* department-main page ends */
 /* department-main page ends */
 
 
