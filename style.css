@@ -725,8 +725,9 @@ td > a {
   box-shadow: 10px 10px 10px #888888;
   border-radius: 10px;
   transition: 0.25s;
-  min-height: 38rem;
+  min-height: 38.5rem;
   max-height: 25rem;
+  overflow:hidden;
 }
 
 .our_faculty_card:hover{
