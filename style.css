@@ -325,7 +325,7 @@ ul.breadcrumb {
 }
 .our-faculty-mech{
     max-width: 1140px;
-    margin:0 auto; 
+    margin:0 auto;
 }
 
 .mech-faculty-card{
@@ -725,8 +725,8 @@ td > a {
   box-shadow: 10px 10px 10px #888888;
   border-radius: 10px;
   transition: 0.25s;
-  min-height: 550px;
-  max-height:650px;
+  min-height: 38rem;
+  max-height: 25rem;
 }
 
 .our_faculty_card:hover{
@@ -753,6 +753,7 @@ td > a {
 
 .our_faculty_card_image{
   border-radius:10px;
+  height: 18rem;
   /* min-height: 290px; */
 }
 
