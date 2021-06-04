@@ -135,7 +135,7 @@ img.blur {
     height: 90% !important;
 }
 
-.card {
+.card_radius {
 
     border-radius: 50px;
     background: #ffffff;
@@ -325,7 +325,7 @@ ul.breadcrumb {
 }
 .our-faculty-mech{
     max-width: 1140px;
-    margin:0 auto; 
+    margin:0 auto;
 }
 
 .mech-faculty-card{
@@ -345,6 +345,7 @@ ul.breadcrumb {
     padding:40px 0;
     background-color:#012A4A;
     color:#bcd4e6;
+
   }
 
   .footer-basic ul {
@@ -573,6 +574,38 @@ a{
 /* Home Page CSS ENDS */
 
 
+/*Training-Page Starts*/
+.training-tile{
+  text-align: justify;
+}
+
+.training-logo{
+  float:left;
+  margin-right: 10px;
+}
+
+.training-text{
+  margin-right: 10px;
+}
+
+
+.training-research{
+  float:right;
+  margin-left: 10px;
+}
+
+.training-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.training-column{
+  padding: 10px 50px 5px;
+}
+/*Training Page Ends*/
+
 /* adjunct-faculties Starts */
 
 .af-hero-container {
@@ -643,11 +676,7 @@ td > a {
 <<<<<<< HEAD
 /**Mehul's Css**/
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
 /*.card-image-top {
     width: 100%;
     height: 15vw;
@@ -757,6 +786,16 @@ td > a {
     width: 100%;
 }
 
+#accordionButton{
+    display:block;
+    text-align: center;
+}
+#wordWrap{
+    word-wrap: break-word;
+}
+
+
+
 /**End of Mehul's Css**/
 =======
 
@@ -775,4 +814,153 @@ td > a {
 }
 
 /* department-main page ends */
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
+
+/* Research page start */
+
+i {
+  font-style: italic !important;
+}
+
+#research-accordion {
+  margin-bottom: 23vh;
+}
+
+#research-accordion ul {
+  font-size: 16px;
+}
+
+.list-group-item {
+  word-break: break-word;
+}
+
+/* Research page end */
+/* department-main page ends */
+
+
+
+/* Department CSE starts */
+
+/* Classes */
+.accordion_heading_attributes{
+  font-size: 0.8em;
+  font-family: 'ubuntu';
+}
+
+.accordion_content_attributes{
+  font-size: 1em;
+}
+
+.cse_features_cards{
+  background-color: #FFF;
+  border-top: 10px solid #2C7DA0/*#C62C31*/;
+  box-shadow: 0 3px 12px -2px rgb(0 0 0 / 20%);
+  font-size: 13px;
+  min-height: 580px;
+  width: 100%;
+}
+
+.cse_features_cards_heading{
+  font-family: 'ubuntu';
+  width: 100%;
+}
+
+.cse_features_cards_content{
+  font-family: georgia, palatino, serif;
+  font-size: 12pt;
+}
+
+.cse_heading_texts{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2.5em;
+}
+
+.small_line{
+  border-top: 6px solid #2C7DA0;
+  border-radius: 25px;
+}
+
+.our_courses_card{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 10px;
+}
+
+.our_courses_card_padding{
+  padding: 20px 20px;
+}
+
+.our_courses_inside_content{
+  border-left: 6px solid #2C7DA0;
+  font-family: 'ubuntu';
+  font-size: 3em;
+  border-radius: 10px;
+}
+
+.our_course_card_font{
+  font-family: ubuntu;
+  font-size: 2em;
+}
+
+.our_faculty_card{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 10px;
+  transition: 0.25s;
+  min-height: 38.5rem;
+  max-height: 25rem;
+  overflow:hidden;
+}
+
+.our_faculty_card:hover{
+  box-shadow: 10px 15px 15px #2C7DA0;
+}
+
+.our_faculty_card_padding{
+  padding: 20px 20px;
+}
+
+.our_faculty_inside_content{
+  border-left: 6px solid #2C7DA0;
+  font-family: 'ubuntu';
+  font-size: 3em;
+  border-radius: 10px;
+  text-align: center;
+  min-height: 170px;
+}
+
+.our_faculty_card_font{
+  font-family: ubuntu;
+  font-size: 2em;
+}
+
+.our_faculty_card_image{
+  border-radius:10px;
+  height: 18rem;
+  /* min-height: 290px; */
+}
+
+/* IDs */
+#features{
+  margin-top: 5em;
+}
+
+#courses{
+  margin-top: 5em;
+}
+
+#courses_content{
+  margin-top: 3em;
+}
+
+#cse_faculty{
+  margin-top: 5em;
+
+}
+
+#cse_faculty_content{
+  margin-top: 3em;
+}
+
+/* Department CSE Ends */
 >>>>>>> upstream/master
