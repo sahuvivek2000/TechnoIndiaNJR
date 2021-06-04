@@ -345,6 +345,7 @@ ul.breadcrumb {
     padding:40px 0;
     background-color:#012A4A;
     color:#bcd4e6;
+
   }
 
   .footer-basic ul {
@@ -688,6 +689,26 @@ td > a {
 }
 
 /* department-main page ends */
+
+/* Research page start */
+
+i {
+  font-style: italic !important;
+}
+
+#research-accordion {
+  margin-bottom: 23vh;
+}
+
+#research-accordion ul {
+  font-size: 16px;
+}
+
+.list-group-item {
+  word-break: break-word;
+}
+
+/* Research page end */
 /* department-main page ends */
 
 
