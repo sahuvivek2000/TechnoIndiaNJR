@@ -127,10 +127,19 @@ img.blur {
   height: 90% !important;
 }
 
+<<<<<<< HEAD
 .card {
   border-radius: 50px;
   background: #ffffff;
   box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+=======
+.card_radius {
+
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: -20px 20px 60px #d9d9d9,
+        20px -20px 60px #ffffff;
+>>>>>>> upstream/master
 }
 
 .card-deck {
@@ -554,6 +563,39 @@ a {
 
 /* Home Page CSS ENDS */
 
+
+/*Training-Page Starts*/
+.training-tile{
+  text-align: justify;
+}
+
+.training-logo{
+  float:left;
+  margin-right: 10px;
+}
+
+.training-text{
+  margin-right: 10px;
+}
+
+
+.training-research{
+  float:right;
+  margin-left: 10px;
+}
+
+.training-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.training-column{
+  padding: 10px 50px 5px;
+}
+/*Training Page Ends*/
+
 /* adjunct-faculties Starts */
 
 .af-hero-container {
@@ -682,3 +724,178 @@ td > a {
   }
 }
 /* placement */
+
+/* Research page start */
+
+i {
+  font-style: italic !important;
+}
+
+#research-accordion {
+  margin-bottom: 23vh;
+}
+
+#research-accordion ul {
+  font-size: 16px;
+}
+
+.list-group-item {
+  word-break: break-word;
+}
+
+/* Research page end */
+
+/* navbar improvement */
+
+.btn-dropdown  {
+  padding: 0.5rem 0.5rem !important;
+  border: 0 !important;
+  color: rgba(255,255,255,.55) !important;
+  font-size: 14px !important;
+  line-height: 26px !important;
+}
+
+.dropdown-toggle-split {
+  color: rgba(255,255,255,.55) !important;
+}
+
+.dropdown-toggle-split:focus+.dropdown-toggle-split, .dropdown-toggle-split:focus {
+  box-shadow: none !important;
+}
+
+.navbar-dropdown-btn:focus+.navbar-dropdown-btn, .navbar-dropdown-btn:focus {
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .btn-dropdown {
+    padding: 0.5rem 0 !important;
+  }
+}
+/*navbar imrovement */
+/* department-main page ends */
+
+
+
+/* Department CSE starts */
+
+/* Classes */
+.accordion_heading_attributes{
+  font-size: 0.8em;
+  font-family: 'ubuntu';
+}
+
+.accordion_content_attributes{
+  font-size: 1em;
+}
+
+.cse_features_cards{
+  background-color: #FFF;
+  border-top: 10px solid #2C7DA0/*#C62C31*/;
+  box-shadow: 0 3px 12px -2px rgb(0 0 0 / 20%);
+  font-size: 13px;
+  min-height: 580px;
+  width: 100%;
+}
+
+.cse_features_cards_heading{
+  font-family: 'ubuntu';
+  width: 100%;
+}
+
+.cse_features_cards_content{
+  font-family: georgia, palatino, serif;
+  font-size: 12pt;
+}
+
+.cse_heading_texts{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2.5em;
+}
+
+.small_line{
+  border-top: 6px solid #2C7DA0;
+  border-radius: 25px;
+}
+
+.our_courses_card{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 10px;
+}
+
+.our_courses_card_padding{
+  padding: 20px 20px;
+}
+
+.our_courses_inside_content{
+  border-left: 6px solid #2C7DA0;
+  font-family: 'ubuntu';
+  font-size: 3em;
+  border-radius: 10px;
+}
+
+.our_course_card_font{
+  font-family: ubuntu;
+  font-size: 2em;
+}
+
+.our_faculty_card{
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 10px;
+  transition: 0.25s;
+  min-height: 38.5rem;
+  max-height: 25rem;
+  overflow:hidden;
+}
+
+.our_faculty_card:hover{
+  box-shadow: 10px 15px 15px #2C7DA0;
+}
+
+.our_faculty_card_padding{
+  padding: 20px 20px;
+}
+
+.our_faculty_inside_content{
+  border-left: 6px solid #2C7DA0;
+  font-family: 'ubuntu';
+  font-size: 3em;
+  border-radius: 10px;
+  text-align: center;
+  min-height: 170px;
+}
+
+.our_faculty_card_font{
+  font-family: ubuntu;
+  font-size: 2em;
+}
+
+.our_faculty_card_image{
+  border-radius:10px;
+  height: 18rem;
+  /* min-height: 290px; */
+}
+
+/* IDs */
+#features{
+  margin-top: 5em;
+}
+
+#courses{
+  margin-top: 5em;
+}
+
+#courses_content{
+  margin-top: 3em;
+}
+
+#cse_faculty{
+  margin-top: 5em;
+
+}
+
+#cse_faculty_content{
+  margin-top: 3em;
+}
+
+/* Department CSE Ends */
