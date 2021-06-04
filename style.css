@@ -864,3 +864,35 @@ i {
 }
 
 /* Department CSE Ends */
+
+/* Department ECE Starts */
+
+/* Classes */
+.ece_overview_side_image{
+  width: 15rem;
+  height: 8rem;
+  float: right;
+}
+
+.ece_overview_image_card{
+  width: 15rem;
+  height: 8rem;
+  float: right;
+  box-shadow: 0px 0px 10px #2C7DA0;
+  margin-bottom: 1em;
+  margin-left: 0.3em;
+}
+
+.ece_overview_article_font{
+  font-family: 'ubuntu';
+  font-size: 1.16em;
+}
+
+.ece_feature_cards{
+  min-height: 700px;
+}
+
+/* IDs */
+#ece_overview{
+  margin-top: 3em;
+}
