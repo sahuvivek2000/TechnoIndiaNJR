@@ -709,3 +709,32 @@ i {
 }
 
 /* Research page end */
+
+/* navbar improvement */
+
+.btn-dropdown  {
+  padding: 0.5rem 0.5rem !important;
+  border: 0 !important;
+  color: rgba(255,255,255,.55) !important;
+  font-size: 14px !important;
+  line-height: 26px !important;
+}
+
+.dropdown-toggle-split {
+  color: rgba(255,255,255,.55) !important;
+}
+
+.dropdown-toggle-split:focus+.dropdown-toggle-split, .dropdown-toggle-split:focus {
+  box-shadow: none !important;
+}
+
+.navbar-dropdown-btn:focus+.navbar-dropdown-btn, .navbar-dropdown-btn:focus {
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .btn-dropdown {
+    padding: 0.5rem 0 !important;
+  }
+}
+/*navbar imrovement */
