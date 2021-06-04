@@ -864,3 +864,21 @@ i {
 }
 
 /* Department CSE Ends */
+/* Department EE Starts */
+.EE-head{
+  background-color: white !important;
+  font-size: 21px;
+  padding-top: 4% !important;
+}
+.EE-course{
+  width: auto;
+}
+.EE-img{
+  border-radius: 0;
+}
+.our-faculty-EE{
+  max-width: fit-content;
+ padding-bottom: 7%;
+ padding-top: 3%;
+}
+/* Department EE Ends */
