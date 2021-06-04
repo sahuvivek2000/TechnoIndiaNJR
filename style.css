@@ -127,19 +127,17 @@ img.blur {
   height: 90% !important;
 }
 
-<<<<<<< HEAD
 .card {
   border-radius: 50px;
   background: #ffffff;
   box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
-=======
+}
 .card_radius {
 
     border-radius: 50px;
     background: #ffffff;
     box-shadow: -20px 20px 60px #d9d9d9,
         20px -20px 60px #ffffff;
->>>>>>> upstream/master
 }
 
 .card-deck {
