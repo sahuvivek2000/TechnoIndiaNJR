@@ -665,12 +665,7 @@ td > a {
 /**Mehul's Css**/
 
 
-/*.card-image-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-    justify-content: center ;
-}*/
+
 #sep
 {
     width: 2px;
@@ -688,18 +683,7 @@ td > a {
 .active a {
     border-bottom: 2px solid white;
 }
-/*.card-image-top
-{
-    margin-left: 60px;
-}*/
-/*.h5{
-    font-size: 4vw;
-}*/
-/*.card-image-top{
-    width: auto;
-    height: auto;
-    
-}*/
+
 #Contain{
     align-content: center;
     padding-top: 10px;
@@ -1063,4 +1047,21 @@ i {
 #ece_overview{
   margin-top: 3em;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
+
+#ece_faculty{
+  margin-top: 5em;
+}
+
+/* Applied Science And Humanities */
+
+/* Classes */
+
+/* IDs */
+#applied_science_faculty{
+  margin-top: 5em;
+}
+/* Applied Science ANd Humanities End */
 >>>>>>> upstream/master
