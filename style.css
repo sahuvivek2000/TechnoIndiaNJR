@@ -385,12 +385,15 @@ ul.breadcrumb li a:hover {
   opacity: 0.9;
 }
 
+
+
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
   color: #aaa;
-  margin-bottom: 0;
+  margin-bottom :0;
+}
 }
 
 /* footer */
@@ -671,6 +674,8 @@ td > a {
     width: 2px;
 }
 
+
+}
 .mynav a {
     color: lightblue !important;
     border-bottom:  2px solid transparent;
