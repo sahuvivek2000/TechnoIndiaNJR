@@ -385,15 +385,12 @@ ul.breadcrumb li a:hover {
   opacity: 0.9;
 }
 
-
-
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
   color: #aaa;
-  margin-bottom :0;
-}
+  margin-bottom: 0;
 }
 
 /* footer */
@@ -1018,6 +1015,27 @@ i {
 
 /* Department CSE Ends */
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
+/* Department EE Starts */
+.EE-head{
+  background-color: white !important;
+  font-size: 21px;
+  padding-top: 4% !important;
+}
+.EE-course{
+  width: auto;
+}
+.EE-img{
+  border-radius: 0;
+}
+.our-faculty-EE{
+  max-width: fit-content;
+ padding-bottom: 7%;
+ padding-top: 3%;
+}
+/* Department EE Ends */
 >>>>>>> upstream/master
 =======
 
