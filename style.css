@@ -661,6 +661,117 @@ td > a {
 }
 
 /* adjunct-facuties Ends */
+<<<<<<< HEAD
+/**Mehul's Css**/
+
+
+
+#sep
+{
+    width: 2px;
+}
+
+
+}
+.mynav a {
+    color: lightblue !important;
+    border-bottom:  2px solid transparent;
+}
+.mynav a:hover{
+    border-bottom: 2px solid skyblue;
+    background: gray;
+}
+
+.active a {
+    border-bottom: 2px solid white;
+}
+
+#Contain{
+    align-content: center;
+    padding-top: 10px;
+}
+#TitleRow{
+    padding-top: 10px;
+    background-color: brown;
+    border-radius: 2.5rem 1rem 2.5rem;
+}
+#RowText{
+    color: white;
+}
+.space{
+    padding-top: 20px;
+}
+#navBar{
+    word-spacing: 5px;
+    padding-left:20px;
+    align-content:space-around;
+}
+#Heading{
+    background-color: white;
+    box-shadow: 5f 5f 5f 5f #8888;
+    border: 2px solid red;
+}
+#headingText{
+    color:darkblue;
+    text-shadow: 2px 2px 2px #8888;
+}
+#paraRow{
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: justify;
+    color:solid darkslategrey;
+}
+#alignments{
+    justify-content: center;
+}
+#col{
+    padding:5px;
+    justify-content: center;
+    margin-left: 10px;
+}
+#topSpace{
+    padding-top: 10px;
+}
+#cardImg{
+    height:50%;
+     width:50%;
+     border:2px solid black;
+     margin-left: 70px;
+}
+
+
+#noWrap{
+    white-space:nowrap;
+}
+#space1{
+    padding-top: 5px;
+}
+#linkColor{
+    color: blue;
+}
+.bigSpace{
+    padding-top:60px;
+}
+#paraCenter{
+    text-align: center;
+}
+
+#KeyPeopleImage{
+    width: 100%;
+}
+
+#accordionButton{
+    display:block;
+    text-align: center;
+}
+#wordWrap{
+    word-wrap: break-word;
+}
+
+
+
+/**End of Mehul's Css**/
+=======
 
 /* department-main page starts */
 
@@ -677,6 +788,11 @@ td > a {
 }
 
 /* department-main page ends */
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
+=======
 /* placement */
 .placement {
   max-width: 100%;
@@ -722,6 +838,7 @@ td > a {
   }
 }
 /* placement */
+>>>>>>> upstream/master
 
 /* Research page start */
 
@@ -898,6 +1015,9 @@ i {
 
 /* Department CSE Ends */
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
 /* Department EE Starts */
 .EE-head{
   background-color: white !important;
@@ -916,6 +1036,7 @@ i {
  padding-top: 3%;
 }
 /* Department EE Ends */
+>>>>>>> upstream/master
 =======
 
 /* Department ECE Starts */
