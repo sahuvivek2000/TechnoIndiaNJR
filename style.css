@@ -661,7 +661,7 @@ td > a {
 }
 
 /* adjunct-facuties Ends */
-<<<<<<< HEAD
+
 /**Mehul's Css**/
 
 
@@ -672,7 +672,7 @@ td > a {
 }
 
 
-}
+
 .mynav a {
     color: lightblue !important;
     border-bottom:  2px solid transparent;
@@ -771,7 +771,7 @@ td > a {
 
 
 /**End of Mehul's Css**/
-=======
+
 
 /* department-main page starts */
 
@@ -788,11 +788,7 @@ td > a {
 }
 
 /* department-main page ends */
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
-=======
+
 /* placement */
 .placement {
   max-width: 100%;
@@ -838,7 +834,7 @@ td > a {
   }
 }
 /* placement */
->>>>>>> upstream/master
+
 
 /* Research page start */
 
@@ -1014,10 +1010,7 @@ i {
 }
 
 /* Department CSE Ends */
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
+
 /* Department EE Starts */
 .EE-head{
   background-color: white !important;
@@ -1036,8 +1029,7 @@ i {
  padding-top: 3%;
 }
 /* Department EE Ends */
->>>>>>> upstream/master
-=======
+
 
 /* Department ECE Starts */
 
@@ -1070,9 +1062,6 @@ i {
 #ece_overview{
   margin-top: 3em;
 }
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
 
 #ece_faculty{
   margin-top: 5em;
@@ -1087,4 +1076,3 @@ i {
   margin-top: 5em;
 }
 /* Applied Science ANd Humanities End */
->>>>>>> upstream/master
